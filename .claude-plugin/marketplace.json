@@ -1,0 +1,19 @@
+{
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "cube-for-claude",
+    "description": "Reference agents, skills, and data connectors for the CUBE prioritization method.",
+    "owner": {
+      "name": "Patrick Frey"
+    },
+    "plugins": [
+      {
+        "name": "cube-prioritization",
+        "displayName": "CUBE Prioritization",
+        "source": "./cube-prioritization",
+        "description": "A plugin that implements the CUBE prioritization method.",
+        "author": {
+          "name": "Patrick Frey"
+        }
+      }
+    ]
+}

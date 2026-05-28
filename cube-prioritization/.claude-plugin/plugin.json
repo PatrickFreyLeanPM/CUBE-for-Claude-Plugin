@@ -1,0 +1,8 @@
+{
+    "name": "cube-prioritization",
+    "version": "0.0.1",
+    "description": "A plugin that implements the CUBE prioritization method.",
+    "author": {
+      "name": "Patrick Frey"
+    }
+  }
