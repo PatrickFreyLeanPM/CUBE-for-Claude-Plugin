@@ -80,6 +80,8 @@ After install, skills fire automatically when relevant, slash commands are avail
 /plugin install cube-prioritization@cube-for-claude
 ```
 
+[![Watch the demo](https://img.youtube.com/vi/pGOw8aDEb94/maxresdefault.jpg)](https://www.youtube.com/watch?v=pGOw8aDEb94)
+
 ## Contributing
 
 Everything here is markdown and JSON. Fork, edit, PR.
