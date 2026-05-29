@@ -1,4 +1,4 @@
-# Cube for Claude
+# CUBE for Claude
 
 Reference agents, skills, and data connectors for the CUBE priorization method.
 
@@ -7,11 +7,14 @@ Reference agents, skills, and data connectors for the CUBE priorization method.
 Everything here is available **two ways from one source**: install it as a [Claude Cowork](https://claude.com/product/cowork) or [Claude Code](https://claude.com/product/claude-code) plugin. Same system prompt, same skills — you choose where it runs.
 
 ## Getting started in Cowork
+
 - [Install Claude Desktop](https://claude.com/download)
 - Get access to Claude Cowork
-- Follow the instructions in the video below:
+- Go to **Customize** -> **Personal Plugins** -> **Create Plugin** -> **Add Marketplace**
+- Add marketplace `PatrickFreyLeanPM/CUBE-for-Claude-Plugin`
+- After the marketplace has been added, go to **Directory** -> **Plugins** -> **Personal** and install the CUBE plugin
 
-Todo: Create video
+After this, you can use the CUBE skills and agents in Claude Cowork.
 
 > [!IMPORTANT]
 > **Every output from these plugins is a draft for product manager review.** 
@@ -33,19 +36,6 @@ Each agent is named for the workflow it runs. They're the most common surface �
 | **ROI Calculator** | Calculates Return on Investment ratios for backlog items (Business Value ÷ Development Effort) and sorts them by ROI in descending order to guide efficient resource allocation and identify high-value, low-effort quick wins | `cube-prioritization` | `/cube-prioritization:roi-calculator` |
 | **Release Planner** | Organizes ROI-prioritized backlog items into incremental releases (V1.0, V1.1, V2.0, etc.) based on team effort capacity and strategic constraints, transforming a prioritized backlog into a realistic, achievable roadmap that balances delivery velocity with technical coherence | `cube-prioritization` | `/cube-prioritization:release-planner` |
 | **Full CUBE Analyst** | Orchestrates the complete CUBE workflow by executing all five specialized sub-agents in sequence, transforming raw backlog items into a fully analyzed, prioritized, and release-planned roadmap that integrates customer perspective, business value, development effort, ROI, and release planning | `cube-prioritization` | `/cube-prioritization:full-cube-analyst` |
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Repository Layout
 
@@ -83,7 +73,7 @@ After install, skills fire automatically when relevant, slash commands are avail
 
 ```bash
 # Add the marketplace (use the absolute path to this repo or a GitHub URL)
-/plugin marketplace add <path-to-this-repo>
+/plugin marketplace add https://github.com/PatrickFreyLeanPM/CUBE-for-Claude-Plugin
 
 # Install a plugin — pick the ones that match your practice
 /plugin install cube-prioritization
