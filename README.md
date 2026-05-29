@@ -1,6 +1,6 @@
 # CUBE for Claude
 
-Reference agents, skills, and data connectors for the CUBE priorization method.
+Reference agents, skills, and data connectors for the [CUBE priorization method](https://patrickfreyleanpm.com/cube-landing/).
 
 > **New here?** Start with [QUICKSTART.md](QUICKSTART.md) — install in 60 seconds. This README is the full reference.
 
